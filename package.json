@@ -1,0 +1,18 @@
+{
+  "name": "passport-pixelpin-openidconnect",
+  "version": "1.0.13",
+  "description": "[Passport](http://passportjs.org/) strategy for authenticating with [PixelPin](http://pixelpin.co.uk)\r using the OAuth 2.0 API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Callum Brankin",
+  "license": "ISC",
+  "dependencies": {
+    "oauth": "0.9.x",
+    "passport-strategy": "1.x.x",
+    "request": "^2.75.0",
+    "webfinger": "0.4.x",
+    "pkginfo": "0.4.0"
+  }
+}
