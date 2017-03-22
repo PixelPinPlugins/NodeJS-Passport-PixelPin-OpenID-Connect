@@ -42,9 +42,9 @@ var util = require('util')
   function Strategy(options, verify) {
   	options = options || {};
     options.issuer = options.issuer || 'https://pixelpin.co.uk';
-  	options.authorizationURL = options.authorizationURL || 'https://test.pixelpin.co.uk/connect/authorize';
-    options.tokenURL = options.tokenURL || 'https://test.pixelpin.co.uk/connect/token';
-    options.userInfoURL = options.userInfoURL || 'https://test.pixelpin.co.uk/connect/userinfo';
+  	options.authorizationURL = options.authorizationURL || 'https://login.pixelpin.io/connect/authorize';
+    options.tokenURL = options.tokenURL || 'https://login.pixelpin.io/connect/token';
+    options.userInfoURL = options.userInfoURL || 'https://login.pixelpin.io/connect/userinfo';
 
     OpenIDConnectStrategy.call(this, options, verify);
     this.name = 'pixelpin';
