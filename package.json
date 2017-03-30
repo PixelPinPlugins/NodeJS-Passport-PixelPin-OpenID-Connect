@@ -1,6 +1,6 @@
 {
   "name": "passport-pixelpin-openidconnect",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "[Passport](http://passportjs.org/) strategy for authenticating with [PixelPin](http://pixelpin.co.uk)\r using the OAuth 2.0 API.",
   "main": "index.js",
   "scripts": {
