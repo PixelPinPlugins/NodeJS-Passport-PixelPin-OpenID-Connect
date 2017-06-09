@@ -41,7 +41,7 @@ var util = require('util')
 
   function Strategy(options, verify) {
   	options = options || {};
-    options.issuer = options.issuer || 'https://pixelpin.co.uk';
+    options.issuer = options.issuer || 'https://login.pixelpin.io/';
   	options.authorizationURL = options.authorizationURL || 'https://login.pixelpin.io/connect/authorize';
     options.tokenURL = options.tokenURL || 'https://login.pixelpin.io/connect/token';
     options.userInfoURL = options.userInfoURL || 'https://login.pixelpin.io/connect/userinfo';
