@@ -1,6 +1,6 @@
 Passport Pixelpin OpenID Connect
 =============
-Passport Pixelpin OpenID Connect Uses a slightly modified version Passport OpenID Connect to allow uses to authenticate using PixelPin.
+Passport Pixelpin OpenID Connect Uses a slightly modified version Passport OpenID Connect to allow users to authenticate using PixelPin.
 
 Requirements
 ------------
